@@ -23,3 +23,37 @@ a:link{
 	float:right;
 	margin-right:50px;
 }
+/* отсюда начинается полное использование возможностей CSS*/
+
+p#change{
+	color:red;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+p#change2{
+	color:green;
+	font-family:"Courier New", Courier, monospace;
+}
+#changeCursor{
+	cursor:wait;
+}
+#changeBG{
+	background-image: url(md.png);
+}
+.shadow{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    padding: 10px;
+}
+#opacityIMG{
+	opacity: 0.4; 
+}
+#layer1{
+	z-index:1;
+}
+#layer2{
+	position:relative;
+	z-index:2;
+	top:-177px;
+}
+.turn:hover{
+	-webkit-transform: rotate(15deg);
+}
