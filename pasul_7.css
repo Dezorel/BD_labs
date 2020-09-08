@@ -1,0 +1,25 @@
+a:link{
+	text-decoration:none;
+}
+#text{
+	margin-left:50px;
+	margin-right:50px;
+	cursor:pointer;
+	
+}
+#dial{
+	margin-left:40px;
+}
+#tab{
+	margin-top:100px;	
+}
+#alttext{
+	cursor:help;
+}
+#im{
+	float:right;
+}
+#im1{
+	float:right;
+	margin-right:50px;
+}

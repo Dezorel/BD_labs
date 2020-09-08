@@ -1,19 +1,42 @@
 <html>
 	<head>
-	<title>Пришла Весна, Pasul 4_rus</title>
+	<link href="pasul_7.css" rel="stylesheet" type="text/css">
+	<title>Пришла Весна! Pasul RU</title>
 	</head>
 	<body bgcolor = "FFFFF0">
-	
-		<div align = "right">
-			<a href = "pasul_4.html"><font size = 4>Revenire la limba română</font></a>
+	<a id="sus"></a>
+		<div>
+		<!-- Ссылки на другие страницы -->
+			<table width = 100%>
+				<tr>
+					<td align = "right">
+					<a href = "pasul_7.html"><font size = 4><img src = "md.png" width = 4%></font></a>
+					</td>	
+				</tr>
+			</table>
+		</div>
+		
+		<div>
+		<!-- Таблица навигации-->
+		
+			<table id ="link" align = "center" width = 1000px>
+				<td align="center"><a href = "#start"> <font size = 5>Начало рассказа</font> </a></td>
+				<td align="center"><a href = "#final"> <font size = 5>Конец рассказа </font></a></td>
+				<td align="center"><a href = "#tabel"> <font size = 5>Таблица состояний</font></a></td>
+				<td align="center"><a href = "#altpagini"><font size = 5>Другие HTML страницы</font></a></td>
+				<td align="center" id = "alttext"><a href = "https://www.povesti-pentru-copii.com/"><font size = 5> Прочитайте другие книги</font></a></td>
+			</table>
 		</div>
 		
 		<h1 align = "center">Пришла Весна!</h1>
 		
-		<div align="center"><img src="iarna.jpg" width = 30% ></div>
+		<img id="im1" src="iarna.jpg" width = 450px height = 550px>
+		
 		<!--Здесь содержится основной текст.-->
-		<div align = "left">
-			<font size = 4 >
+		<div align = "left" id="text">
+			<font size = 4>
+			<p></p>
+			<a id= "start"></a>
 			<p>
 			- Чипцирип! Чипцирип! Смотри, идет снег! Зима пришла!
 			<br>
@@ -58,8 +81,8 @@
 «Мы разбудим тебя, Мисани», - обещают воробьи и затем летают на ветвях своих елок.<br>
 			</p>
 			
-			<div align = "center"><img src = "urs.jpg" width = 30%></div>
-			
+			<img id ="im" src = "urs.jpg" width = 450px>
+
 			<p>
 			
 
@@ -103,6 +126,7 @@
 <br>
         - Чипцирип! Cipcirip! Они бегут в дом плюшевого мишки. Просыпайся, Мисани! Весна здесь!
 <br>
+<img id="im" src = "casa-urs.jpg" width = 450px >
 В берлоге нет движения.
 <br>
         «Она не просыпается», - вздохнул воробей.
@@ -130,6 +154,7 @@
         «Не сердись», - советует белка. Теперь разбудим его. Принеси кувшин с медом от Деда Мороза! Ставьте самовар. Аромат меда с медом - Мисани не устоит.
 <br>
 Чайный пар наполняет всю комнату.
+<img id="im" src = "primavara.jpg" width = 450px  >
 <br>
         «Какой приятный запах», - Мисани открыла один глаз. Пахнет весной. Ой! Не так ли? Он пришел? Он испуганно выпрыгивает из духовки.
 <br>
@@ -148,16 +173,26 @@
 			
 			</font>
 		</div>
-		<div align="center"><img  src = "primavara.jpg" width = 30% ></div>
+		
 		<br><br>
+		<a id= "tabel"></a>
 		<!-- Таблица состояний -->
-		<div align = "center">
-			<table border = 2px cellspacing="5.5" width = 500px>
+		<div align = "center" id="tab">
+			<table border = 2px cellspacing="5.5" width = 900px height = 900px>
 			<tr>
 				<td colspan = "3" >
-				<p align = "center">Таблица характеристики персонажей</p>
+				<p align = "center">Таблица состояния персонажей</p>
 				</td>
 			</tr>
+			<th>
+			<p>Персонаж</p>
+			</th>
+			<th>
+			<p>Состояние</p>
+			</th>
+			<th>
+			<p>Время года</p>
+			</th>
 			<!-- Воробей -->
 			<tr>
 				<td  rowspan ="2">
@@ -185,7 +220,7 @@
 				<p align = "center">Заяц</p>
 				</td>
 				<td bgcolor = "00BFFF">
-				<p>Редко выглядывает в окно</p>
+				<p>Редко выглядвывает на улицу</p>
 				</td>
 				<td bgcolor = "00BFFF">
 				<p>Зима</p>
@@ -265,5 +300,20 @@
 			
 			</table>
 		</div>
+		 
+		<br><br><br><br>
+		<!-- Другие странциы -->
+		<a id="altpagini"></a>
+		<hr>
+		<table align = "center" width = 1000px>
+				<td><a href = "pasul_1.html"><font size = 5>Шаг 1</font></a></td>
+				<td><a href = "pasul_2.html"><font size = 5>Шаг 2</font></a></td>
+				<td><a href = "pasul_3.html"><font size = 5>Шаг 3</font></a></td>
+				<td><a href = "pasul_4.html"><font size = 5>Шаг 4</font></a></td>
+				<td><a href = "pasul_5.html"><font size = 5>Шаг 5</font></a></td>
+				<td><a href = "pasul_6.html"><font size = 5>Шаг 6</font></a></td>
+			</table>
+		<hr>
+		<div align = "right"><a href = "#sus"><img src = "sus.png" width = 4%></a></div>
 	</body>
 </html>
