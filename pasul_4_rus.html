@@ -1,6 +1,6 @@
 <html>
 	<head>
-	<link href="pasul_7.css" rel="stylesheet" type="text/css">
+	<link href="pasul_4.css" rel="stylesheet" type="text/css">
 	<title>Пришла Весна! Pasul RU</title>
 	</head>
 	<body bgcolor = "FFFFF0">
@@ -16,27 +16,47 @@
 			</table>
 		</div>
 		
-		<div>
-		<!-- Таблица навигации-->
+		<!-- Таблица навигации 2.0-->
 		
-			<table id ="link" align = "center" width = 1000px>
-				<td align="center"><a href = "#start"> <font size = 5>Начало рассказа</font> </a></td>
-				<td align="center"><a href = "#final"> <font size = 5>Конец рассказа </font></a></td>
-				<td align="center"><a href = "#tabel"> <font size = 5>Таблица состояний</font></a></td>
-				<td align="center"><a href = "#altpagini"><font size = 5>Другие HTML страницы</font></a></td>
-				<td align="center" id = "alttext"><a href = "https://www.povesti-pentru-copii.com/"><font size = 5> Прочитайте другие книги</font></a></td>
-			</table>
-		</div>
+		<table align = "center" width = 850px>
+		<td>
+			<div id="navBar1" >
+			<ul>
+			<li class="headerList1"><a href="#start"> Начало повести</a></li>
+			<li class="headerList1"><span><a href="#final"> Конец повести</a></span>
+			</li>
+			<li class="headerList1"><span><a href="#tabel"> Таблица состояний</a></span>
+			</li>
+			<li class="headerList1"><span><a href="#"> Другие страницы</a></span>
+			<ul>
+			<li> <a href="pasul_1.html"> Шаг 1 </a></li>
+			<li> <a href="pasul_2.html"> Шаг 2 </a></li>
+			<li> <a href="pasul_3.html"> Шаг 3 </a></li>
+			<li> <a href="pasul_4.html"> Шаг 4 </a></li>
+			<li> <a href="pasul_5.html"> Шаг 5 </a></li>
+			<li> <a href="pasul_6.html"> Шаг 6 </a></li>
+			</ul>
+			</li>
+			<li><span><a href="https://www.povesti-pentru-copii.com/" id = "alttext"> 	Читайте другие книги</a></span>
+			</li>
+			</ul>
+			</div>
+		</td>
+		</table>
+		
+		<br><br><br>
+		
 		
 		<h1 align = "center">Пришла Весна!</h1>
 		
-		<img id="im1" src="iarna.jpg" width = 450px height = 550px>
+		
 		
 		<!--Здесь содержится основной текст.-->
-		<div align = "left" id="text">
-			<font size = 4>
-			<p></p>
+		<div class="border">
+		<div class="border-top"></div>
+		<div class="center"><font size = 4>
 			<a id= "start"></a>
+		
 			<p>
 			- Чипцирип! Чипцирип! Смотри, идет снег! Зима пришла!
 			<br>
@@ -45,7 +65,7 @@
         - Пришла зима ?! Зайчик затрепетал ушами в окно. Какое чудо! Скоро наш лес будет одет в шубу цвета моей меха. Я знаю, почему зима выбирает этот цвет.
 <br>
         - Зачем? - спрашивают воробьи.
-<br>
+</p><img id="im" src="iarna.jpg" width = 450px height = 550px><p>
         «Потому что зима так меня любит». Больше, чем у других животных.
 <br>
         «У вас нет скромности», - сердито сказали воробьи. Ты хвастун. Другими словами, бабушка Винтер была в белом халате еще до того, как вы, кролики, появились на свете! И если хотите знать - Зима нас всех любит! Все!
@@ -167,18 +187,16 @@
         - Фу… Я его разбудил, воробьи веселятся. А теперь за работу! Не время веселья! Весенний день год кормит!
 		<br>
 			</p>
-				<font size = 6>
-					<p align = "center" >Конец!</p>
-				</font-size>
-			
-			</font>
-		</div>
+			<br>
+			</div>
+		<div class="border-bottom"></div>
 		
+		</div>
 		<br><br>
 		<a id= "tabel"></a>
 		<!-- Таблица состояний -->
 		<div align = "center" id="tab">
-			<table border = 2px cellspacing="5.5" width = 900px height = 900px>
+			<table class ="tt"border = 2px cellspacing="5.5" width = 900px height = 900px>
 			<tr>
 				<td colspan = "3" >
 				<p align = "center">Таблица состояния персонажей</p>
@@ -300,20 +318,7 @@
 			
 			</table>
 		</div>
-		 
-		<br><br><br><br>
-		<!-- Другие странциы -->
-		<a id="altpagini"></a>
-		<hr>
-		<table align = "center" width = 1000px>
-				<td><a href = "pasul_1.html"><font size = 5>Шаг 1</font></a></td>
-				<td><a href = "pasul_2.html"><font size = 5>Шаг 2</font></a></td>
-				<td><a href = "pasul_3.html"><font size = 5>Шаг 3</font></a></td>
-				<td><a href = "pasul_4.html"><font size = 5>Шаг 4</font></a></td>
-				<td><a href = "pasul_5.html"><font size = 5>Шаг 5</font></a></td>
-				<td><a href = "pasul_6.html"><font size = 5>Шаг 6</font></a></td>
-			</table>
-		<hr>
-		<div align = "right"><a href = "#sus"><img src = "sus.png" width = 4%></a></div>
+		
+		<a href = "#sus"><img id="oksus" src = "sus.png" width = 4% align = "right"></a>
 	</body>
 </html>

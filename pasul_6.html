@@ -16,29 +16,48 @@
 			</table>
 		</div>
 		
-		<div>
-		<!-- Таблица навигации-->
+		<!-- Таблица навигации 2.0-->
 		
-			<table id ="link" align = "center" width = 1000px>
-				<td><a href = "#start"> <font size = 5>Începutul poveștii</font> </a></td>
-				<td><a href = "#final"> <font size = 5>Sfarsitul poveștii </font></a></td>
-				<td><a href = "#tabel"> <font size = 5>Tabel de stare</font></a></td>
-				<td><a href = "#altpagini"><font size = 5>Alte pagine</font></a></td>
-				<td><a href = "#testCSS"><font size = 5>CSS test</font></a></td>
-				<td id = "alttext"><a href = "https://www.povesti-pentru-copii.com/"><font size = 5> Citi alte cărți</font></a></td>
-			</table>
-		</div>
+		<table align = "center" width = 700px>
+		<td>
+			<div id="navBar1" >
+			<ul>
+			<li class="headerList1"><a href="#start"> Începutul poveștii</a></li>
+			<li class="headerList1"><span><a href="#final"> Sfarsitul poveștii</a></span>
+			</li>
+			<li class="headerList1"><span><a href="#tabel"> Tabel de stare</a></span>
+			</li>
+			<li class="headerList1"><span><a href="#"> Alte pagine</a></span>
+			<ul>
+			<li> <a href="pasul_1.html"> Pasul 1 </a></li>
+			<li> <a href="pasul_2.html"> Pasul 2 </a></li>
+			<li> <a href="pasul_3.html"> Pasul 3 </a></li>
+			<li> <a href="pasul_4.html"> Pasul 4 </a></li>
+			<li> <a href="pasul_5.html"> Pasul 5 </a></li>
+			<li> <a href="pasul_7.html"> Pasul 7 </a></li>
+			</ul>
+			</li>
+			<li><span><a href="https://www.povesti-pentru-copii.com/" id = "alttext"> 	Citi alte cărți</a></span>
+			</li>
+			</ul>
+			</div>
+		</td>
+		</table>
+		
+		
 		
 		<h1 align = "center">A venit primavara!</h1>
 		
-		<img id="im1" src="iarna.jpg" width = 450px>
+		
 		
 		<!--Здесь содержится основной текст.-->
-		<div align = "left" id="text">
-			<font size = 4>
-			<p></p>
+		<div class="border">
+		<div class="border-top"></div>
+		<div class="center"><font size = 4>
 			<a id= "start"></a>
+			<br>
 			<p id="dial">– Cipcirip! Cipcirip! Priviţi, ninge! A venit iarna!</p>
+			<img id="im1" src="iarna.jpg" width = 400px>
 			<p>Două vrăbiuţe ţopăie fericite pe o crenguţă de brăduţ. La rădăcina brăduţului e căsuţa iepuraşului Blăniţă Albă.</p>
 			<p id="dial">– A venit iarna?! îşi flutură iepuraşul urechiuşele prin ferestruică. Ce minunăţie! În curând pădurea noastră va fi îmbrăcată într-o mantie de culoarea blăniţei mele. Eu ştiu de ce iarna alege anume această culoare.</p>
 			<p id="dial">– De ce? întreabă vrăbiuţele.</p>
@@ -101,14 +120,11 @@
 		
 			<p id="dial">– Ce minunată e Primăvara, se întoarce Mişani la prietenii lui. Cu această ocazie, nu ar fi rău să chefuim! Sunt flămând ca un lup! Apoi, observând ulcica cu miere, o duce la gură şi nu se opreşte până nu dă de fund. Vrăbiuţele, iepuraşul şi veveriţa se strecoară afară pe neobservate.</p>
 			<p id="dial">– Uf… L-am trezit, se bucură vrăbiuţele. Acum la treabă! Nu e vreme de chefuri! O zi de primăvară hrăneşte un an!</p>
-			
-				<font size = 6>
-					<p align = "center" >Final!</p>
-				</font-size>
-			
-			</font>
-		</div>
+			<br>
+			</div>
+		<div class="border-bottom"></div>
 		
+		</div>
 		<br><br>
 		<a id= "tabel"></a>
 		<!-- Таблица состояний -->
@@ -239,16 +255,6 @@
 		<br><br><br><br>
 		<!-- Другие странциы -->
 		<a id="altpagini"></a>
-		<hr>
-		<table align = "center" width = 1000px>
-				<td><a href = "pasul_1.html"><font size = 5>Pasul 1</font></a></td>
-				<td><a href = "pasul_2.html"><font size = 5>Pasul 2</font></a></td>
-				<td><a href = "pasul_3.html"><font size = 5>Pasul 3</font></a></td>
-				<td><a href = "pasul_4.html"><font size = 5>Pasul 4</font></a></td>
-				<td><a href = "pasul_5.html"><font size = 5>Pasul 5</font></a></td>
-				<td><a href = "pasul_6.html"><font size = 5>Pasul 6</font></a></td>
-			</table>
-		<hr>
 		
 		<a id= "testCSS"></a>
 		<p>Black</p>
@@ -268,6 +274,6 @@
 		
 		<img class="turn" src="casa-urs.jpg" alt= "Рисунок"> 
 		
-		<div align = "right"><a href = "#sus"><img src = "sus.png" width = 4%></a></div>
+		<div><a href = "#sus"><img  src = "sus.png" width = 4% align = "right"></a></div>
 	</body>
 </html>

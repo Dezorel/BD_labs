@@ -138,7 +138,7 @@ font-size:70%;
 display:none;}
 #navBar1 ul li:hover ul{
 position:absolute;
-left:60px;
+left:500px;
 display:block;}
 #navBar1 ul ul li{
 padding:0;
