@@ -85,9 +85,7 @@ h1{
   line-height: 1.5;
 }
 
-
 #navBar1{
-
 float:left;
 border:solid 2px #9c9c8d;
 border-radius:13px;
@@ -148,7 +146,7 @@ padding-bottom:2px;}
 border:none;
 color:black;}
 #oksus{
-	position:fixed;
-	bottom:40px;
-	right:40px;
+position:fixed;
+bottom:40px;
+right:40px;
 }
