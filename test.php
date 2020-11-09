@@ -5,22 +5,6 @@
 	require "personInfo.php";
 
 ?>
-<!---->
-<pre>			
-	<?php
-        //print_r($person);
-		// for($i =0; $i<count($person);$i++)
-		// {
-		// 	echo"$person[$i]<br>" ;
-		// }
-
-		// foreach($person as $pers) {
-		// 	echo $pers['name_person']."<br>";
-		//   }
-
-    ?>
-</pre>
- 
 
 <html>
 	<head>
@@ -145,7 +129,7 @@
         «Молодцы», - посмотрел в глаза <?php echo"$ded_moroz";?>. Принеси ему <?php echo"$giftMedved";?>. Когда он проснется, скажите ему, что он от <?php echo"$ded_moroz";?> и ему повезло с такими друзьями.
 <br>
 И вас я без подарков не оставлю. <?php echo"$vorobei";?> получит <?php echo"$giftVorobei";?>, <?php echo"$belka";?> заслужила <?php echo"$giftBelka";?>,
-а <?php echo"$zaiats";?> дарю <?php echo"$giftZaiats";?>
+а <?php echo"$zaiats";?> дарю <?php echo"$giftZaiats";?>.
 <br>
 После праздников лес выглядит безлюдным. Все отдыхают. <?php echo"$zaiats";?> редко <?php echo"$actionWinterZaiats";?>. <?php echo"$actionWinterVorobei";?> <?php echo"$vorobei";?>. <?php echo"$belka";?> грызет орехи в своей комнатке. 
 Иногда веселая и в хорошем настроении она <?php echo"$actionWinterBelka";?>, наблюдая за тряской снега.
@@ -236,6 +220,7 @@
 			<th>
 			<p>Персонаж</p>
 			</th>
+			
 			<th>
 			<p>Состояние</p>
 			</th>
@@ -243,21 +228,21 @@
 			<p>Время года</p>
 			</th>
 			<?php
-				foreach($activity as $pers) {
+				foreach($activity as $act) {
 						
-					if($pers['name_season'] == 'winter')
+					if($act['name_season'] == 'winter')
 					{
 						echo "<tr bgcolor = '00BFFF'>";
 					}
-					else if($pers['name_season'] == 'spring')
+					else if($act['name_season'] == 'spring')
 					{
 						echo "<tr bgcolor = '7FFF00'>";
 					}
-					else if($pers['name_season'] == 'autumn')
+					else if($act['name_season'] == 'autumn')
 					{
 						echo "<tr bgcolor = 'fbec5d'>";
 					}
-					else if($pers['name_season'] == 'summer')
+					else if($act['name_season'] == 'summer')
 					{
 						echo "<tr bgcolor = 'ff033e'>";
 					}
@@ -265,17 +250,17 @@
 					echo "
 						<td>	<p align = 'center'>
 						".
-						$pers['name_person']."
+						$act['name_person']."
 						</p>	</td>
 
 						<td>	<p>
 						".
-						$pers['name_action']."
+						$act['name_action']."
 						</p>	</td>
 
 						<td>	<p>
 						".
-						$pers['name_season']."
+						$act['name_season']."
 						</p>	</td>
 					</tr>";
 				}

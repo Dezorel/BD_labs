@@ -3,6 +3,7 @@
 
 $activity = getPersonPlusSeasonPlusAction();
 
+	//$person = getSomethinkFromPDO();
 $person = getPersons();
     $belka = $person[0]['name_person'] ;
     $medved = $person[1]['name_person'] ;
