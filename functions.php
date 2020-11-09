@@ -1,5 +1,5 @@
 <?php
-require "db_connect.php";
+
 
 
 function getCategory() {
@@ -11,7 +11,6 @@ function getCategory() {
 	
      return $data;
 } 
-
 
 function getPersonTest() {
 	global $link;
@@ -38,5 +37,20 @@ function getPersons() {
 	return $data;
 }
 
+function getPersonPlusSeasonPlusAction() {
+	global $link;
+	$sql = "SELECT name_person, name_season, name_action FROM (action A join person P on 
+	(A.id_person = P.id_person) ) join season S on (A.id_season = S.id_season) ";
+	$result = mysqli_query($link, $sql);
+	$data = mysqli_fetch_all($result, MYSQLI_ASSOC);
+	return $data;
+}
 
+function getGiftPerson() {
+	global $link;
+	$sql = "SELECT name_person, name_gift FROM person P join gift G on (P.id_gift = G.id_gift)";
+	$result = mysqli_query($link, $sql);
+	$data = mysqli_fetch_all($result, MYSQLI_ASSOC);
+	return $data;
+}
 ?>
