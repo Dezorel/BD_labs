@@ -8,6 +8,7 @@ $database = 'story';
 
 try{                                                                                                //подключение с помощью ПДО и проверка на подключение
     $db = new PDO('mysql:host='.$my_host.';dbname='.$database, $username, $password);
+    $db->exec("SEET NAMES UTF8");
 }catch(Exception $e){
     die("Не удалось подключиться". $e->getMessage());
 }

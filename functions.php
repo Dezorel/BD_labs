@@ -40,5 +40,19 @@ function getGiftPerson() {			//link - my_sqlli подключение			db- по
 	return $data;
 }
 
+function getPersonPlusDwelling() {
+	global $db;
+	$sql = "SELECT name_person, name_dwelling from person p join dwelling d on (p.id_dwelling = d.id_dwelling)";
+	$query = $db->query($sql);
+	$query->execute();
+	return $query->fetchAll();
+}
 
+function getSeason(){
+	global $db;
+	$sql = "SELECT * from season";
+	$query = $db->query($sql);
+	$query->execute();
+	return $query->fetchAll();
+}
 ?>

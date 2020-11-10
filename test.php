@@ -31,7 +31,7 @@
 			<div id="navBar1" >
 			<ul>
 			<li class="headerList1"><a href="#start"> Начало повести</a></li>
-			<li class="headerList1"><span><a href="#final"> Конец повести</a></span>
+			<li class="headerList1"><span><a href="#red"> Редактировать</a></span>
 			</li>
 			<li class="headerList1"><span><a href="#tabel"> Таблица состояний</a></span>
 			</li>
@@ -68,7 +68,7 @@
 			<p>
 			- Чипцирип! Чипцирип! Смотри, идет снег! Зима пришла!
 			<br>
-			 <?php echo"$vorobei";?> радостно <?php echo"$actionAutumnVorobei";?>. У корня елки - домик <?php echo"$zaiats";?>.<br>
+			 <?php echo"$vorobei";?> радостно <?php echo"$actionAutumnVorobei";?>. <?php echo"$dwlZaiats";?> - домик <?php echo"$zaiats";?>.<br>
 
         - Пришла зима ?! <?php echo"$zaiats";?> затрепетал ушами в окно. Какое чудо! Скоро наш лес будет одет в шубу цвета моей меха. Я знаю, почему зима выбирает этот цвет.
 <br>
@@ -82,15 +82,15 @@
 <br>
         «Хорошо, - сказал <?php echo"$zaiats";?>. Я ничего не говорю. И все же, шепчет он себе, он любит меня больше.
 <br>
-        "Дорогая мамочка!" Разве не идет снег ?! <?php echo"$medved";?> выходит из двери своего логова.
+        "Боже!" Разве не идет снег ?! <?php echo"$medved";?> выходит из <?php echo"$dwlMedved";?>.
 <br>
         - Идет снег, <?php echo"$medved";?>! Снег! радостно прыгают <?php echo"$vorobei";?>. Зима пришла!
 <br>
-        - Она пришла… Кто ее пригласил? Разве он не может остаться в ее доме? Хм… Я не понимал, почему это меня усыпило… Когда там… Баба виноват. Морр, морр, морр! Придется поспать еще три месяца. Морр, морр, морр…
+        - Она пришла… Кто ее пригласил? Разве она не может остаться в своём доме? Хм… Я не понимаю, почему это меня усыпиляет… Когда там… Зима виноват. Морр, морр, морр! Придется поспать еще три месяца. Морр, морр, морр…
 <br>
 
  
-<?php echo"$medved";?> тоже удаляется в логово, но через несколько мгновений возвращается:
+<?php echo"$medved";?> тоже удаляется в <?php echo"$dwlMedved";?>, но через несколько мгновений возвращается:
 <br>
         - Ты слышишь ?! Он крикнул.
 <br>
@@ -98,7 +98,7 @@
 <br>
         «Ты», - отвечает <?php echo"$medved";?>. У меня есть запрос. Как только наступит весна, разбуди меня! Не дай мне спать.
 <br>
-        "Почему спишь так долго, <?php echo"$medved";?>?" Разве вы и остальные не можете спать только по ночам? Скоро придет Санта с подарками. Это будет так красиво.
+        "Почему спишь так долго, <?php echo"$medved";?>?" Разве вы и остальные не можете спать только по ночам? Скоро придет <?php echo"$ded_moroz";?> и будет <?php echo"$actionWinterDedMoroz";?>. Это будет так красиво.
 <br>
         - Э ... Я бы хотел ... Но не могу. Если я не сплю, я буду голодать. Моя бабушка прячет мою еду подо льдом, под снегом. Старуха меня не любит. Он меня не любит…
 <br>
@@ -142,23 +142,23 @@
 <br>
         «Мороз не жалеет», - вздохнул <?php echo"$vorobei";?>. Когда наступит весна?
 <br>
-        - Не скоро… Зима только начинается. И <?php echo"$belka";?> входит в дупло, чтобы грызть орехи.
+        - Не скоро… Зима только начинается. И <?php echo"$belka";?> входит в <?php echo"$dwlBelka";?>, чтобы грызть орехи.
 <br>
 Дни короткие, ночи длинные, погода тяжелая. Однако однажды Зима снимает свои белые простыни и уходит. Какая радость!
 <br>
         - Чипцирип! Cipcirip! Весна здесь!
 <br>
-С приходом весны лес оживает. Работа кипит везде. <?php echo"$vorobei";?> спешит построить новый дом. Соберите веточки, пряди сухой травы, склейте их и домик готов.
+С приходом весны лес оживает. Работа кипит везде. <?php echo"$vorobei";?> спешит построить новый <?php echo"$dwlVorobei";?>. Соберите веточки, пряди сухой травы, склейте их и <?php echo"$dwlVorobei";?> готов.
 <br>
         - Но где <?php echo"$medved";?>? Вспомнила <?php echo"$belka";?>.
 <br>
 <img id="im" src = "casa-urs.jpg" width = 450px >
-        - Аолеу! Я забыл! Встряхните <?php echo"$vorobei";?>.
+        - Точняк! Я забыл! Встряхните <?php echo"$vorobei";?>.
 <br>
-        - Чипцирип! Cipcirip! Они бегут в дом <?php echo"$medved";?>. Просыпайся, <?php echo"$medved";?>! Весна здесь!
+        - Чипцирип! Cipcirip! Они бегут в <?php echo"$dwlMedved";?>  <?php echo"$medved";?>. Просыпайся, <?php echo"$medved";?>! Весна здесь!
 <br>
 
-В берлоге нет движения.<?php echo"$medved";?> <?php echo"$actionWinterMedved";?>
+В <?php echo"$dwlMedved";?> нет движения.<?php echo"$medved";?> <?php echo"$actionWinterMedved";?>
 <br>
         «Он не просыпается», - вздохнул <?php echo"$vorobei";?>.
 <br>
@@ -166,13 +166,13 @@
 <br>
         «Мы должны пойти и посмотреть», - предлагает <?php echo"$belka";?>.
 <br>
-Воздух в комнате, где спит <?php echo"$medved";?>, такой душный, такой твердый, что все трое теряют сознание.
+Воздух в <?php echo"$dwlMedved";?>, где спит <?php echo"$medved";?>, такой душный, такой твердый, что все трое теряют сознание.
 <br>
         - Давайте окна откроем! - крикнула <?php echo"$belka";?>. Проветриваем, впускаем свет!
 <br>
         «Слава богу, он жив». Какой здесь беспорядок
 <br>
-И <?php echo"$vorobei";?> вместе с <?php echo"$belka";?>, к которым присоединяется <?php echo"$zaiats";?>, сразу же приступают к работе. За короткое время дом Мисани неузнаваем. На свежеокрашенных стенах <?php echo"$belka";?> рисует клубники. 
+И <?php echo"$vorobei";?> вместе с <?php echo"$belka";?>, к которым присоединяется <?php echo"$zaiats";?>, сразу же приступают к работе. За короткое время <?php echo"$dwlMedved";?> <?php echo"$medved";?> неузнаваем.  <?php echo"$belka";?> <?php echo"$actionSpringBelka";?>. 
 Старые занавески заменяются новыми, розовыми, с разноцветными пчелами и бабочками. Пол вымыт и застелен мягкими ковриками. У стены длинный стул, покрытый полосой всех цветов. Больше нечего делать. 
 Друзья садятся на стул и ждут, пока <?php echo"$medved";?> проснется.
 <br>
@@ -187,14 +187,14 @@
 <br>
         «Не сердись», - советует <?php echo"$belka";?>. Теперь разбудим его. Принеси <?php echo"$giftMedved";?> от <?php echo"$ded_moroz";?> Ставьте самовар. Аромат <?php echo"$giftMedved";?> такой сильный - <?php echo"$medved";?> не устоит.
 <br>
-Чайный пар наполняет всю комнату.
+Чайный пар наполняет всю <?php echo"$dwlMedved";?>.
 
 <br>
         «Какой приятный запах», - <?php echo"$medved";?> открыл один глаз. Пахнет весной. Ой! Не так ли? Он пришел? Он испуганно выпрыгивает постели.
 <br>
         - Это здесь, это здесь! Если вы еще спите, весна уходит незаметно, - шутит <?php echo"$zaiats";?>.
 <br>
-<?php echo"$medved";?> <?php echo"$actionSpringMedved";?>, выходит за дверь логова. Он вытягивает лапы, дышит всеми легкими. Лес почти зеленый. Везде цветы, жужжание пчел, щебетание птиц. Небо голубое, солнышко счастливое.
+<?php echo"$medved";?> <?php echo"$actionSpringMedved";?>, выходит из <?php echo"$dwlMedved";?>. Он вытягивает лапы, дышит всеми легкими. Лес почти зеленый. Везде цветы, жужжание пчел, щебетание птиц. Небо голубое, солнышко счастливое.
 <br>
 		- Какая чудесная весна, <?php echo"$medved";?> возвращается к своим друзьям. По этому поводу неплохо было бы повеселиться! Я голоден как волк! Затем, заметив <?php echo"$giftMedved";?>, он подносит его ко рту и не 
 		останавливается, пока не доходит до дна. Незаметно крадутся <?php echo"$vorobei";?>, <?php echo"$zaiats";?> и <?php echo"$belka";?>.
@@ -205,13 +205,105 @@
 			<br>
 			</div>
 		<div class="border-bottom"></div>
+	</div>
+		<br>
+		<a id= "red"></a>
+		<br>
+
 		
-		</div>
+	<table align="center" cellspacing="5.5" width = 60% border="2px"> 
+		<th>Добавить персонажа</th>
+		<th>Изменить персонажа</th>
+		<th>Удалить персонажа</th>
+		
+		<tr>
+			<!--Добавление персонажа-->
+			<td>
+				<form align = "center" method="post" action="createPerson.php">
+				<br>
+				<p>Имя персонажа	<br>
+				<input type="text" name="person_name" maxlength="20">
+				</p>
+				<p>Действие персонажа	<br>
+				<input type="text" name="activity" maxlength="100" >
+				</p>
+				<p>Время года (когда <br> происходит действие) <br>
+				<input type="text" name="season" maxlength="20" >
+				</p>
+				<p>Подарок полученный<br> персонажем <br>
+				<input type="text" name="gift" maxlength="50">
+				</p>
+				<p>
+				<p>Жилище персонажа <br>
+				<input type="text" name="dwelling" maxlength="50">
+				</p>
+				<br>
+				<button type="submit">Добавить</button>
+				</p>
+				</form>
+			</td>
+
+			<!--Изменение персонажа-->
+			<td>
+			<form align = "center" method="post" action="updatePerson.php">
+			<br>
+				<p>Имя персонажа	<br>
+				<input type="text" name="person_name" maxlength="20">
+				</p>
+				<p>Действие персонажа	<br>
+				<input type="text" name="activity" maxlength="100" >
+				</p>
+				<p>Время года (когда <br> происходит действие) <br>
+				<input type="text" name="season" maxlength="20" >
+				</p>
+				<p>Подарок полученный<br> персонажем <br>
+				<input type="text" name="gift" maxlength="50">
+				</p>
+				<p>
+				<p>Жилище персонажа <br>
+				<input type="text" name="dwelling" maxlength="50">
+				</p>
+				<br>
+				<button type="submit">Добавить</button>
+				</p>
+				</form>
+			</td>
+
+			<!--Удаление персонажа-->
+			<td>
+			<form align = "center">
+			<br>
+				<p>Имя персонажа	<br>
+				<input type="text" name="person_name" maxlength="20">
+				</p>
+				<p>Действие персонажа	<br>
+				<input type="text" name="activity" maxlength="100" >
+				</p>
+				<p>Время года (когда <br> происходит действие) <br>
+				<input type="text" name="season" maxlength="20" >
+				</p>
+				<p>Подарок полученный<br> персонажем <br>
+				<input type="text" name="gift" maxlength="50">
+				</p>
+				<p>
+				<p>Жилище персонажа <br>
+				<input type="text" name="dwelling" maxlength="50">
+				</p>
+				<br>
+				<button type="submit">Добавить</button>
+				</p>
+				</form>
+			</td>
+		</tr>
+		</table>
+
+
+
 		<br><br>
 		<a id= "tabel"></a>
 		<!-- Таблица состояний -->
 		<div align = "center" id="tab">
-			<table class ="tt"border = 2px cellspacing="5.5" width = 900px height = 900px>
+			<table class ="tt"border = 2px cellspacing="5.5" width = 60% height = 900px>
 			<tr>
 				<td colspan = "3" >
 				<p align = "center">Таблица состояния персонажей</p>
