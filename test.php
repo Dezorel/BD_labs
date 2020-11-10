@@ -213,7 +213,7 @@
 		
 	<table align="center" cellspacing="5.5" width = 60% border="2px"> 
 		<th>Добавить персонажа</th>
-		<th>Изменить персонажа</th>
+		<th>Изменить подарок <br> полученный <?php echo"$zaiats";?></th>
 		<th>Удалить персонажа</th>
 		
 		<tr>
@@ -247,22 +247,11 @@
 			<td>
 			<form align = "center" method="post" action="updatePerson.php">
 			<br>
-				<p>Имя персонажа	<br>
-				<input type="text" name="person_name" maxlength="20">
-				</p>
-				<p>Действие персонажа	<br>
-				<input type="text" name="activity" maxlength="100" >
-				</p>
-				<p>Время года (когда <br> происходит действие) <br>
-				<input type="text" name="season" maxlength="20" >
-				</p>
-				<p>Подарок полученный<br> персонажем <br>
+				
+				<p>Подарок полученный<br> <?php echo"$zaiats";?> <br><br>
 				<input type="text" name="gift" maxlength="50">
 				</p>
-				<p>
-				<p>Жилище персонажа <br>
-				<input type="text" name="dwelling" maxlength="50">
-				</p>
+				
 				<br>
 				<button type="submit">Добавить</button>
 				</p>

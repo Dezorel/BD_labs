@@ -4,8 +4,7 @@ require "functions.php";
 
 global $db;
 
-if(!empty($_POST["person_name"]) && !empty($_POST["activity"]) && !empty($_POST["season"]) 
-    && !empty($_POST["gift"]) && !empty($_POST["dwelling"]) )
+if(!empty($_POST["gift"]) )
     {
         $name = $_POST["person_name"];
         $activity = $_POST["activity"];
@@ -22,7 +21,8 @@ if(!empty($_POST["person_name"]) && !empty($_POST["activity"]) && !empty($_POST[
 
         
         //подготовленный запрос gift
-        $query = $db->prepare("UPDATE gift SET name_gift=:name_gift, where name_gift='Лицо на скале'");
+        
+        $query = $db->prepare("UPDATE `gift` SET `name_gift` = :name_gift WHERE `gift`.`id_gift` = 6");
         $params = ["name_gift"=> $gift];
         $query->execute($params);
         $lastIDGift = $db->lastInsertId();
