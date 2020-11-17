@@ -1,12 +1,8 @@
 <?php
 
-
 function getPersons() {
-	//global $link;	
-	// $result = mysqli_query($link, $sql);
-	// $data = mysqli_fetch_all($result, MYSQLI_ASSOC);
 	global $db;
-	 $sql = "SELECT name_person FROM `person` ";
+	$sql = "SELECT name_person FROM `person` ";
 	$query= $db->query($sql);
 	$query->execute();
 	$data = $query->fetchAll();
@@ -14,9 +10,6 @@ function getPersons() {
 }
 
 function getPersonPlusSeasonPlusAction() {
-	//global $link;	
-	// $result = mysqli_query($link, $sql);
-	// $data = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 	global $db;
 	 $sql = "SELECT name_person, name_season, name_action FROM (action A join person P on 
@@ -55,4 +48,15 @@ function getSeason(){
 	$query->execute();
 	return $query->fetchAll();
 }
+
+function getActivity()
+{
+	global $db;
+	$sql = "SELECT * from `action` A JOIN `person` P on (A.id_person = P.id_person)";
+	$query = $db->query($sql);
+	$query->execute();
+	return $query->fetchAll();
+}
+
+
 ?>

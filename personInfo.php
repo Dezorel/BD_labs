@@ -1,4 +1,6 @@
 <?php
+
+
 /*
 belka
 medved
@@ -15,6 +17,7 @@ $medved = $person[1]['name_person'] ;
 $zaiats = $person[2]['name_person'] ;
 $vorobei = $person[3]['name_person'] ;
 $ded_moroz = $person[4]['name_person'] ;
+
 
 //create activity variable for used they in text
 $activity = getPersonPlusSeasonPlusAction();	
@@ -96,6 +99,8 @@ foreach($dwelling as $dwl) {
         if($dwl['name_person'] == $vorobei)    $dwlVorobei = $dwl['name_dwelling'];
         if($dwl['name_person'] == $zaiats)    $dwlZaiats = $dwl['name_dwelling'];
 		}
+
+
 
 
 

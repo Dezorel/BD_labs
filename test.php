@@ -253,33 +253,28 @@
 				</p>
 				
 				<br>
-				<button type="submit">Добавить</button>
+				<button type="submit">Изменить</button>
 				</p>
 				</form>
 			</td>
 
 			<!--Удаление персонажа-->
 			<td>
-			<form align = "center">
+			<form align = "center" method="post" action="deletePerson.php">
 			<br>
-				<p>Имя персонажа	<br>
-				<input type="text" name="person_name" maxlength="20">
-				</p>
-				<p>Действие персонажа	<br>
-				<input type="text" name="activity" maxlength="100" >
-				</p>
-				<p>Время года (когда <br> происходит действие) <br>
-				<input type="text" name="season" maxlength="20" >
-				</p>
-				<p>Подарок полученный<br> персонажем <br>
-				<input type="text" name="gift" maxlength="50">
-				</p>
-				<p>
-				<p>Жилище персонажа <br>
-				<input type="text" name="dwelling" maxlength="50">
-				</p>
-				<br>
-				<button type="submit">Добавить</button>
+				<p>Имя персонажа	<br></p>
+
+				<select name="del_activity">
+				<?php 
+				$activityToDelete = getActivity();
+
+				foreach($activityToDelete as $a)
+				echo "<option value=".$a['id_action'].">".$a['name_action']."</option>";
+				?>
+				</select>
+			
+				<br><br>
+				<button type="submit">Удалить</button>
 				</p>
 				</form>
 			</td>
@@ -313,7 +308,7 @@
 						
 					if($act['name_season'] == 'winter')
 					{
-						echo "<tr bgcolor = '00BFFF'>";
+						echo "<tr bgcolor = '00BFFF'>";		//hashmap
 					}
 					else if($act['name_season'] == 'spring')
 					{

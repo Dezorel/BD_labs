@@ -12,7 +12,7 @@ if(!empty($_POST["person_name"]) && !empty($_POST["activity"]) && !empty($_POST[
         $gift = $_POST["gift"];
         $dwelling = $_POST["dwelling"];
 
-        //защищаю от XSS атак
+        //XSS
         $name = htmlspecialchars($name);
         $activity = htmlspecialchars($activity);
         $season = htmlspecialchars($season);
