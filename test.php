@@ -262,7 +262,7 @@
 			<td>
 			<form align = "center" method="post" action="deletePerson.php">
 			<br>
-				<p>Имя персонажа	<br></p>
+				<p>Действие персонажа<br></p>
 
 				<select name="del_activity">
 				<?php 

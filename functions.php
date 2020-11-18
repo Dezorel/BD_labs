@@ -57,6 +57,20 @@ function getActivity()
 	$query->execute();
 	return $query->fetchAll();
 }
+function getPersonToDelete(){
+	global $db;
+	$sql = "SELECT * from `person`";
+	$query = $db->query($sql);
+	$query->execute();
+	return $query->fetchAll();
+}
 
-
+function getAllPerson() {
+	global $db;
+	$sql = "SELECT * FROM `person` ";
+	$query= $db->query($sql);
+	$query->execute();
+	$data = $query->fetchAll();
+	return $data;
+}
 ?>
