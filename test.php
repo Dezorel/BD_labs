@@ -30,7 +30,7 @@
 		<td>
 			<div id="navBar1" >
 			<ul>
-			<li class="headerList1"><a href="#start"> ЛОЛЛОЛО</a></li>
+			<li class="headerList1"><a href="#start"> Начало повести</a></li>
 			<li class="headerList1"><span><a href="#red"> Редактировать</a></span>
 			</li>
 			<li class="headerList1"><span><a href="#tabel"> Таблица состояний</a></span>
